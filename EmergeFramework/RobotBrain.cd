@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EmergeFramework.ActivityLog">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAgBAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ActivityLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.ActivityLogEntry">
+    <Position X="13.25" Y="4.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EmergeFramework.ActivityLogEntry.LogEntryType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ActivityLogEntry.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAIACAAAAAAAAEAAACAAAAEAAAAAAAAAAgYAAAAAI=</HashCode>
+      <FileName>ActivityLogEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.Behavior">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAQQEAAAAAIQAAAAAAAAAAAAAAAAICAA=</HashCode>
+      <FileName>Behavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.CommLink">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAQAAAEAAAAAAAAAAAAAAIAAAAAAIAAA=</HashCode>
+      <FileName>CommLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.Request">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.RequestQueue" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ECBAAAAAIAAgABAAAAAAAAQACAAABAAAAAAAAABQAAA=</HashCode>
+      <FileName>RequestQueue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="EmergeFramework.RobotBrain">
+    <Position X="4.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EmergeFramework.RobotBrain.RunState">
+        <TypeIdentifier>
+          <NewMemberFileName>RobotBrain.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAgCBAEACAAkgIAgCgAAIDBBABAAEAgoIAAAAgAAEA=</HashCode>
+      <FileName>RobotBrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.RobotSpecification">
+    <Position X="7.5" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BEAAoIAAAgAARQEAAAABIAiAAAAIAAAAQGAAAAAAAAA=</HashCode>
+      <FileName>RobotSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.SensorRepository">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIgAAECAgAAKAAAAgAAAAAAABAAECAAAA=</HashCode>
+      <FileName>SensorRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.SpecBehavior">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAABAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>SpecBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.SpecComm">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="EmergeFramework.SpecComm.CommType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpecComm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAIAAAAAAAAIQAABAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>SpecComm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.SpecControl">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQAAAEAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>SpecControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.SpecSensor">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAIAQAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>SpecSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.Communicators.SerialComm" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAAAAACAAAQABAMAAAAAAAAAAAAAAIAAAAAAIAAA=</HashCode>
+      <FileName>Communicators\SerialComm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmergeFramework.Communicators.TcpComm" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAQAAAEAAAAAAAAAAAAAAIAAAAAAIAAA=</HashCode>
+      <FileName>Communicators\TcpComm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
